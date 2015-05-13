@@ -1,0 +1,1 @@
+{ "program": "pitremove", "walltime": "00:00:50", "outputlist": ["fel*.tif"], "parameters": {"z": "dem3193774191514837071.tif", "fel": "feloutput.tif"}}

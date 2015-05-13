@@ -1,0 +1,1 @@
+{ "program": "myworkflow", "walltime": "00:02:50", "outputlist": ["fel*.tif", "pr*.tif", "pp*.tif", "sd8*.tif"], "task2" : {"program": "pitremove"}, "task1" : {"program": "d8flowdir", "parameters": {"mf": "1 1"} }, "workflow": ["task2", "task1"], }

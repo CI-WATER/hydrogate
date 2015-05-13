@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>WSCrypt.h</itemPath>
+      <itemPath>WSData.h</itemPath>
+      <itemPath>WSException.h</itemPath>
+      <itemPath>WSHelper.h</itemPath>
+      <itemPath>WSLogger.h</itemPath>
+      <itemPath>WSPage.h</itemPath>
+      <itemPath>WSPageDeleteJob.h</itemPath>
+      <itemPath>WSPageDeletePackage.h</itemPath>
+      <itemPath>WSPageRequestToken.h</itemPath>
+      <itemPath>WSPageRetrieveJobStatus.h</itemPath>
+      <itemPath>WSPageRetrievePackageStatus.h</itemPath>
+      <itemPath>WSPageRetrieveProgramInfo.h</itemPath>
+      <itemPath>WSPageRetrieveTokenExpireTime.h</itemPath>
+      <itemPath>WSPageReturnHPCNames.h</itemPath>
+      <itemPath>WSPageReturnHPCProgramNames.h</itemPath>
+      <itemPath>WSPageSubmitJob.h</itemPath>
+      <itemPath>WSPageUploadPackage.h</itemPath>
+      <itemPath>WSParameter.h</itemPath>
+      <itemPath>WSScheduler.h</itemPath>
+      <itemPath>WSSshSession.h</itemPath>
+      <itemPath>WSSshSessionPool.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>configfastcgi.js</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>WSCrypt.cpp</itemPath>
+      <itemPath>WSData.cpp</itemPath>
+      <itemPath>WSException.cpp</itemPath>
+      <itemPath>WSHelper.cpp</itemPath>
+      <itemPath>WSLogger.cpp</itemPath>
+      <itemPath>WSPage.cpp</itemPath>
+      <itemPath>WSPageDeleteJob.cpp</itemPath>
+      <itemPath>WSPageDeletePackage.cpp</itemPath>
+      <itemPath>WSPageRequestToken.cpp</itemPath>
+      <itemPath>WSPageRetrieveJobStatus.cpp</itemPath>
+      <itemPath>WSPageRetrievePackageStatus.cpp</itemPath>
+      <itemPath>WSPageRetrieveProgramInfo.cpp</itemPath>
+      <itemPath>WSPageRetrieveTokenExpireTime.cpp</itemPath>
+      <itemPath>WSPageReturnHPCNames.cpp</itemPath>
+      <itemPath>WSPageReturnHPCProgramNames.cpp</itemPath>
+      <itemPath>WSPageSubmitJob.cpp</itemPath>
+      <itemPath>WSPageUploadPackage.cpp</itemPath>
+      <itemPath>WSParameter.cpp</itemPath>
+      <itemPath>WSProxy.cpp</itemPath>
+      <itemPath>WSScheduler.cpp</itemPath>
+      <itemPath>WSSshSession.cpp</itemPath>
+      <itemPath>WSSshSessionPool.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../cppcms-1.0.4</pElem>
+            <pElem>../cppcms-1.0.4/booster</pElem>
+            <pElem>../cppcms-1.0.4/build</pElem>
+            <pElem>../cppcms-1.0.4/build/booster</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../cppcms-1.0.4/build</pElem>
+            <pElem>../cppcms-1.0.4/build/booster</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>cppcms</linkerLibLibItem>
+            <linkerLibLibItem>booster</linkerLibLibItem>
+            <linkerLibLibItem>crypt</linkerLibLibItem>
+            <linkerLibLibItem>crypto</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ssh</linkerLibLibItem>
+            <linkerLibLibItem>ssh_threads</linkerLibLibItem>
+            <linkerLibLibItem>uuid</linkerLibLibItem>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="WSCrypt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSCrypt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageDeleteJob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageDeleteJob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageDeletePackage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageDeletePackage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRequestToken.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRequestToken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveJobStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveJobStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrievePackageStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrievePackageStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveProgramInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveProgramInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveTokenExpireTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveTokenExpireTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCNames.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCNames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCProgramNames.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCProgramNames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageSubmitJob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageSubmitJob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageUploadPackage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageUploadPackage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSParameter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSScheduler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSScheduler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSSshSession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSSshSession.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSSshSessionPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSSshSessionPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="configfastcgi.js" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../cppcms-1.0.4/build</pElem>
+            <pElem>../cppcms-1.0.4/build/booster</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>cppcms</linkerLibLibItem>
+            <linkerLibLibItem>booster</linkerLibLibItem>
+            <linkerLibLibItem>crypt</linkerLibLibItem>
+            <linkerLibLibItem>crypto</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ssh</linkerLibLibItem>
+            <linkerLibLibItem>ssh_threads</linkerLibLibItem>
+            <linkerLibLibItem>uuid</linkerLibLibItem>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="WSCrypt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSCrypt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSLogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageDeleteJob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageDeleteJob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageDeletePackage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageDeletePackage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRequestToken.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRequestToken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveJobStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveJobStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrievePackageStatus.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrievePackageStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveProgramInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveProgramInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveTokenExpireTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageRetrieveTokenExpireTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCNames.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCNames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCProgramNames.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageReturnHPCProgramNames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageSubmitJob.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageSubmitJob.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSPageUploadPackage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSPageUploadPackage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSParameter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSParameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSProxy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSScheduler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSScheduler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSSshSession.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSSshSession.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WSSshSessionPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WSSshSessionPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="configfastcgi.js" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
